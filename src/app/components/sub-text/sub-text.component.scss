@@ -1,0 +1,29 @@
+.subtext {
+    font-weight: 400;
+    color: var(--as-color-sub-title);
+    font-size: var(--as-font-size-sub-title);
+}
+
+.small {
+    --as-font-size-sub-title: var(--as-font-size-tiny);
+}
+
+.medium {
+    --as-font-size-sub-title: var(--as-font-size-small);
+}
+
+.large {
+    --as-font-size-sub-title: var(--as-font-size-medium);
+}
+
+.red {
+    --as-color-sub-title: var(--as-color-light-red);
+}
+
+.blue {
+    --as-color-sub-title: var(--as-color-light-blue);
+}
+
+.green {
+    --as-color-sub-title: var(--as-color-light-green);
+}

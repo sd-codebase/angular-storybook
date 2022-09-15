@@ -1,0 +1,31 @@
+.text-container {
+    .text {
+        font-weight: 600;
+        color: var(--as-color-title);
+        font-size: var(--as-font-size-title);
+    }
+}
+
+.small {
+    --as-font-size-title: var(--as-font-size-small);
+}
+
+.medium {
+    --as-font-size-title: var(--as-font-size-medium);
+}
+
+.large {
+    --as-font-size-title: var(--as-font-size-large);
+}
+
+.red {
+    --as-color-title: var(--as-color-dark-red);
+}
+
+.blue {
+    --as-color-title: var(--as-color-dark-blue);
+}
+
+.green {
+    --as-color-title: var(--as-color-dark-green);
+}
